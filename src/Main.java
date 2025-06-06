@@ -1,5 +1,6 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import javax.sound.midi.Soundbank;
+
+
 public class Main {
     public static void main(String[] args) {
 
@@ -7,6 +8,13 @@ public class Main {
         pet1.name = "Cometa";
         pet1.breed = "Criollo";
         pet1.kind = Kind.Dog;
+
+
+        Pet juan082 = new Pet();
+        juan082.name = "Simon";
+        juan082.breed = "Golden Retriever";
+        juan082.kind = Kind.Dog;
+        System.out.println(juan082);
 
         Pet kath115 = new Pet();
         kath115.name = "lulu";
