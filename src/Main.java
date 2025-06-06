@@ -16,5 +16,12 @@ public class Main {
 
 
         System.out.println(pet1);
+
+        Pet Santiago111 = new Pet();
+        Santiago111.name = "Santiago";
+        Santiago111.breed = "";
+        Santiago111.kind = Kind.Alligator;
+
+        System.out.println(Santiago111);
     }
 }
