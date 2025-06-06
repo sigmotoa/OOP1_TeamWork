@@ -11,11 +11,11 @@ public class Main {
 
         System.out.println(pet1);
 
-        Pet Bernabe = new Pet();
-        Bernabe.name = "Bernabe";
-        Bernabe.breed = "Calico";
-        Bernabe.kind = Kind.Cat;
+        Pet Bernabe046 = new Pet();
+        Bernabe046.name = "Bernabe";
+        Bernabe046.breed = "Calico";
+        Bernabe046.kind = Kind.Cat;
 
-        System.out.println(Bernabe);
+        System.out.println(Bernabe046);
     }
 }
