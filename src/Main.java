@@ -9,6 +9,10 @@ public class Main {
         pet1.breed = "Criollo";
         pet1.kind = Kind.Dog;
 
+        Pet bird019 = new Pet();
+        bird019.name = "Agaporni";
+        bird019.breed = "Inseparables";
+        bird019.kind = Kind.Bird;
 
         Pet juan082 = new Pet();
         juan082.name = "Simon";
