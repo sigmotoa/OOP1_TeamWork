@@ -29,11 +29,19 @@ public class Main {
 
         System.out.println(pet1);
 
+        Pet eduardo038 = new Pet();
+        eduardo038.name = "techino";
+        eduardo038.breed = "rolo";
+        eduardo038.kind = Kind.Alligator;
+    System.out.println(eduardo038);
+
+
         Pet Santiago111 = new Pet();
         Santiago111.name = "Santiago";
         Santiago111.breed = "";
         Santiago111.kind = Kind.Alligator;
 
         System.out.println(Santiago111);
+
     }
 }
