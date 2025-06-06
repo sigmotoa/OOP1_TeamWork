@@ -29,6 +29,14 @@ public class Main {
 
         System.out.println(pet1);
 
+
+        Pet Bernabe046 = new Pet();
+        Bernabe046.name = "Bernabe";
+        Bernabe046.breed = "Calico";
+        Bernabe046.kind = Kind.Cat;
+
+        System.out.println(Bernabe046);
+
         Pet eduardo038 = new Pet();
         eduardo038.name = "techino";
         eduardo038.breed = "rolo";
@@ -42,6 +50,7 @@ public class Main {
         Santiago111.kind = Kind.Alligator;
 
         System.out.println(Santiago111);
+
 
     }
 }
