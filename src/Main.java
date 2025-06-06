@@ -8,6 +8,12 @@ public class Main {
         pet1.breed = "Criollo";
         pet1.kind = Kind.Dog;
 
+        Pet kath115 = new Pet();
+        kath115.name = "lulu";
+        kath115.breed = "guacamaya";
+        kath115.kind = Kind.Bird;
+
+
 
         System.out.println(pet1);
     }
