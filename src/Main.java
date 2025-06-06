@@ -43,5 +43,13 @@ public class Main {
 
         System.out.println(Santiago111);
 
+
+        Pet EDWINZARD = new Pet();
+        EDWINZARD.name = "Silvestre";
+        EDWINZARD.breed = "Criollo";
+        EDWINZARD.kind = Kind.Cat;
+
+        System.out.println(EDWINZARD);
+
     }
 }
