@@ -1,5 +1,6 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import javax.sound.midi.Soundbank;
+
+
 public class Main {
     public static void main(String[] args) {
 
@@ -8,12 +9,39 @@ public class Main {
         pet1.breed = "Criollo";
         pet1.kind = Kind.Dog;
 
+        Pet bird019 = new Pet();
+        bird019.name = "Agaporni";
+        bird019.breed = "Inseparables";
+        bird019.kind = Kind.Bird;
+
+        Pet juan082 = new Pet();
+        juan082.name = "Simon";
+        juan082.breed = "Golden Retriever";
+        juan082.kind = Kind.Dog;
+        System.out.println(juan082);
+
+        Pet kath115 = new Pet();
+        kath115.name = "lulu";
+        kath115.breed = "guacamaya";
+        kath115.kind = Kind.Bird;
+
+
 
         System.out.println(pet1);
+
         Pet eduardo038 = new Pet();
         eduardo038.name = "techino";
         eduardo038.breed = "rolo";
         eduardo038.kind = Kind.Alligator;
     System.out.println(eduardo038);
+
+
+        Pet Santiago111 = new Pet();
+        Santiago111.name = "Santiago";
+        Santiago111.breed = "";
+        Santiago111.kind = Kind.Alligator;
+
+        System.out.println(Santiago111);
+
     }
 }
